@@ -1,43 +1,42 @@
-# agrinho-2026-portal-sustentavel
-# 🌱 Portal AgroSustentável
+# Projeto Agrinho: Agro e Sustentabilidade
 
-Um portal educativo interativo desenvolvido para o **Concurso Agrinho 2026** (Subcategoria 3: Programação Front-End).
+Fala, pessoal! Esse é o nosso projeto para o Concurso Agrinho 2026 (Subcategoria 3: Programação Front-End).
 
-## 🎯 Sobre o Projeto
+## Sobre o que é esse site?
 
-Este projeto foi construído com o objetivo de disseminar o conhecimento sobre práticas agrícolas sustentáveis. Alinhado com o tema **"Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente"**, o portal oferece aos utilizadores informações claras sobre técnicas que protegem o solo e a natureza, além de um Quiz interativo para testar o conhecimento adquirido.
+A gente criou esse portal educativo para falar sobre o tema desse ano: "Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente". 
 
-Acreditamos que a tecnologia e a educação juntas são ferramentas poderosas para construir um futuro mais sustentável para o agronegócio.
+Nas nossas aulas, aprendemos que é totalmente possível produzir alimentos em grande quantidade sem destruir a natureza. A ideia do site é mostrar algumas dessas técnicas de um jeito simples e ainda desafiar quem está acessando com um joguinho no final. A gente acredita que a tecnologia ajuda muito a espalhar essas ideias boas!
 
-## ✨ Funcionalidades
+## O que tem no projeto
 
-- **Secção Educativa:** Cards informativos sobre Rotação de Culturas, Plantio Direto e outras práticas (ILPF).
-- **Quiz Dinâmico:** Um jogo de perguntas e respostas com validação em tempo real e sistema de pontuação.
-- **Feedback Imediato:** Os botões mudam de cor para indicar acertos e erros, acompanhados de uma explicação técnica para cada resposta.
-- **Design Responsivo:** Layout adaptável e intuitivo, focado na melhor experiência do utilizador (UX).
+- Área de Informações: Cards fáceis de ler explicando técnicas importantes, como Rotação de Culturas e Plantio Direto.
+- Quiz Interativo: Um jogo rápido para testar o que você aprendeu lendo o site.
+- Respostas na hora: Clicou na resposta, o botão já fica verde (se acertou) ou vermelho (se errou), e o site já te explica o porquê na hora.
+- Visual responsivo: O site se adapta bem na tela e é super fácil de mexer.
 
-## 🛠️ Tecnologias Utilizadas
+## Como a gente construiu isso (Tecnologias)
 
-Para cumprir rigorosamente o regulamento do Concurso Agrinho e demonstrar o domínio dos fundamentos da web, este projeto foi desenvolvido **sem o uso de quaisquer frameworks** (como Bootstrap, React ou Vue). Foram utilizadas apenas tecnologias nativas (Vanilla):
+Para seguir o regulamento do Agrinho certinho, a gente não usou nenhum framework (nada de Bootstrap, React ou coisas prontas). Fizemos tudo "na unha" usando só o básico que aprendemos nas aulas de programação:
 
-- **HTML5:** Estruturação semântica e acessível (ficheiro `index.html`).
-- **CSS3:** Estilização visual, paleta de cores e animações de interface (ficheiro `style.css`).
-- **JavaScript (Vanilla):** Lógica de programação, manipulação do DOM através de eventos, arrays e objetos, sem uso de código inline no HTML (ficheiro `script.js`).
+- HTML5: Para montar a estrutura e os textos do site (index.html).
+- CSS3: Para deixar tudo bonito, com cores que lembram o agronegócio e a natureza (style.css).
+- JavaScript (Vanilla): Para fazer a lógica do Quiz funcionar, os botões responderem aos cliques e a pontuação contar, tudo num arquivo separado (script.js), sem bagunçar o HTML.
 
-## 🚀 Como aceder ao projeto
+## Como testar o site
 
-O projeto está alojado no GitHub Pages e pode ser acedido diretamente através do link na secção "About" deste repositório, ou clicando no link abaixo:
+Você não precisa baixar nada para testar. Nós já colocamos o site no ar usando o GitHub Pages! É só clicar no link aqui embaixo (ele também está ali na área "About" do lado direito da página):
 
-🔗 **[Cole aqui o link do seu GitHub Pages gerado no passo anterior]**
+**[Cole aqui o link do seu GitHub Pages]**
 
-*(Em alternativa, para correr localmente, basta descarregar o repositório e abrir o ficheiro `index.html` em qualquer navegador web).*
+(Se você quiser rodar no seu computador, é só baixar os arquivos deste repositório e dar dois cliques no arquivo index.html para abrir no navegador).
 
-## 👨‍🎓 Autoria
+## Quem fez
 
-Projeto desenvolvido para avaliação no Concurso Agrinho 2026.
+Projeto desenvolvido com muito orgulho para o Concurso Agrinho 2026.
 
-- **Desenvolvido por:** [Nome Completo do Aluno]
-- **Série:** 2ª Série do Ensino Médio
-- **Professor(a) Orientador(a):** [Nome do Professor]
-- **Instituição de Ensino:** [Nome da sua Escola]
-- **Cidade:** [Sua Cidade] - PR
+- Aluno(a): [Nome Completo do Aluno]
+- Série: 2ª Série do Ensino Médio
+- Professor(a) Orientador(a): [Nome do Professor]
+- Colégio: [Nome da sua Escola]
+- Cidade: Toledo - PR
