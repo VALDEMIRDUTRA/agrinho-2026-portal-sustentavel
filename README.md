@@ -1,4 +1,4 @@
-# Projeto Agrinho: Agro e Sustentabilidade
+# Projeto Agrinho: Agro Forte e Sustentabilidade
 
 Fala, pessoal! Esse é o nosso projeto para o Concurso Agrinho 2026 (Subcategoria 3: Programação Front-End).
 
