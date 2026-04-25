@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     
+    // Atualizado com 5 perguntas sobre sustentabilidade agrícola
     const quizData = [
         {
             pergunta: "Qual o principal benefício do sistema Lavoura-Pecuária-Floresta (ILPF)?",
@@ -22,6 +23,39 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
             correta: 2,
             info: "Sensores e dados permitem que o produtor economize recursos e proteja o meio ambiente."
+        },
+        {
+            pergunta: "Qual é a principal vantagem da Rotação de Culturas?",
+            opcoes: [
+                "Quebrar o ciclo de pragas e melhorar a fertilidade do solo",
+                "Esgotar rapidamente os nutrientes de uma área",
+                "Eliminar totalmente a necessidade de luz solar",
+                "Diminuir a diversidade biológica da lavoura"
+            ],
+            correta: 0,
+            info: "Alternar diferentes tipos de plantas na mesma área evita a exaustão do solo e reduz doenças naturais."
+        },
+        {
+            pergunta: "Por que o Sistema de Plantio Direto (SPD) é considerado uma prática conservacionista?",
+            opcoes: [
+                "Porque exige a queima da vegetação antes de plantar",
+                "Porque revolve intensamente a terra com tratores pesados",
+                "Porque mantém a palha na superfície, protegendo o solo contra a erosão",
+                "Porque consome muito mais água do que o método tradicional"
+            ],
+            correta: 2,
+            info: "A palhada na superfície funciona como um escudo protetor que retém a umidade e evita que a chuva lave os nutrientes."
+        },
+        {
+            pergunta: "O que caracteriza o controle biológico de pragas no campo?",
+            opcoes: [
+                "A aplicação de agrotóxicos em grandes quantidades",
+                "O uso de inimigos naturais (como outros insetos e fungos) para combater a praga",
+                "A destruição de todas as árvores ao redor da plantação",
+                "A substituição de sementes naturais por artificiais"
+            ],
+            correta: 1,
+            info: "O controle biológico usa a própria natureza a favor da lavoura, diminuindo a necessidade de defensivos químicos."
         }
     ];
 
@@ -38,6 +72,8 @@ document.addEventListener("DOMContentLoaded", () => {
         nextBtn.style.display = "none";
         
         const q = quizData[currentIdx];
+        // Atualiza o contador de etapas (Ex: Pergunta 1 de 5)
+        document.getElementById("quiz-step").textContent = `Pergunta ${currentIdx + 1} de ${quizData.length}`;
         questionEl.textContent = q.pergunta;
         optionsCont.innerHTML = "";
 
@@ -85,9 +121,26 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function showFinalResult() {
         questionEl.textContent = "Avaliação Concluída";
-        optionsCont.innerHTML = `<p style="text-align:center; padding: 20px;">Você demonstrou conhecimento em ${score} de ${quizData.length} temas sustentáveis.</p>`;
+        
+        // Mensagem dinâmica baseada na pontuação
+        let mensagemFinal = "";
+        if (score === quizData.length) {
+            mensagemFinal = "Excelente! Você é um verdadeiro especialista em sustentabilidade no campo.";
+        } else if (score >= 3) {
+            mensagemFinal = "Muito bom! Você tem um ótimo conhecimento sobre o agronegócio do futuro.";
+        } else {
+            mensagemFinal = "Bom começo! Continue explorando o portal para aprender mais sobre o agronegócio sustentável.";
+        }
+
+        optionsCont.innerHTML = `
+            <div style="text-align:center; padding: 20px;">
+                <h3 style="color: var(--primary); font-size: 2rem; margin-bottom: 10px;">${score} / ${quizData.length}</h3>
+                <p style="font-size: 1.1rem;">${mensagemFinal}</p>
+            </div>
+        `;
         feedbackBox.style.display = "none";
         nextBtn.style.display = "none";
+        document.getElementById("quiz-step").textContent = "Resultado Final";
     }
 
     initQuiz();
