@@ -38,7 +38,7 @@ Para cumprir rigorosamente as regras do edital do Concurso Agrinho, este projeto
 
 O projeto está hospedado em nuvem e pronto para uso através do GitHub Pages. Não é necessário realizar nenhum download para testar a aplicação.
 
-**Link de Acesso:** [Insira o link do seu GitHub Pages aqui]
+**Link de Acesso:** [[Insira o link do seu GitHub Pages aqui](https://valdemirdutra.github.io/agrinho-2026-portal-sustentavel/)]
 
 *(Nota: Para executar o projeto localmente, faça o download deste repositório e abra o arquivo `index.html` em qualquer navegador web).*
 
