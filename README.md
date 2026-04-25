@@ -46,8 +46,8 @@ O projeto está hospedado em nuvem e pronto para uso através do GitHub Pages. N
 
 ## Autoria
 
-* **Aluno(a):** [Nome Completo do Aluno]
-* **Série:** 2ª Série do Ensino Médio
-* **Professor(a) Orientador(a):** [Nome do Professor]
-* **Instituição de Ensino:** [Nome da sua Escola]
-* **Cidade:** Toledo - PR
+* **Aluno(a):** Lorrainy Gabrielly Lucié Cares
+* **Série:** 1ª Série do Ensino Médio
+* **Professor(a) Orientador(a):** Valdemir Souza Dutra
+* **Instituição de Ensino:** CEC PRINCESA ISABEL
+* **Cidade:** Assis Chateaubriand - PR
